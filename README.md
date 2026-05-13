@@ -4,12 +4,20 @@
 Danny loves Japanese food and opened a small restaurant in early 2021 selling sushi, curry, and ramen. After a few months of operation, he needs help analysing his customer data to understand spending habits, visiting frequency, and menu preferences — so he can improve his loyalty programme and grow the business.
 This project answers 10 business questions + 2 bonus queries using real-world SQL techniques across three related tables.
 
-## Database Schema
-sales          menu           members
------------    -----------    -----------
-customer_id    product_id     customer_id
-order_date     product_name   join_date
-product_id     price
+### Database Schema
+### sales
+- customer_id
+- order_date
+- product_id
+
+### menu
+- product_id
+- product_name
+- price
+
+### members
+- customer_id
+- join_date
 
 ## Relationships:
 sales.product_id → menu.product_id (Foreign Key)
@@ -91,4 +99,5 @@ Danny_Diner_SQL_Project/
 ## Author
 Aya Seddik Helmy Seddik
 Aspiring Data Analyst | SQL • Excel • Power BI
-LinkedIn · GitHub
+## LinkedIn:www.linkedin.com/in/aya-seddik-helmy
+## GitHub:https://github.com/ayaseddik606-create/dannys-diner-sql-case-study
